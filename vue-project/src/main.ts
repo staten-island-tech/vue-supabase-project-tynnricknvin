@@ -12,3 +12,10 @@ app.use(createPinia())
 app.use(router)
 
 app.mount('#app')
+const poop = 
+    "lalala"
+console.log(poop)
+import { createClient } from '@supabase/supabase-js'
+
+// Use a custom domain as the supabase URL
+const supabase = createClient('https://ricky-domain.com', 'public-anon-key')
