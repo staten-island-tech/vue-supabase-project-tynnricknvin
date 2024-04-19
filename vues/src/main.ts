@@ -6,13 +6,6 @@ import {
   signInWithCustomToken,
   signOut,
 } from 'firebase/auth';
-import { firebaseConfig } from './config';
-
-initializeApp(firebaseConfig);
-const auth = getAuth();
-// Follow this pattern to import other Firebase services
-// import { } from 'firebase/<service>';
-
 const firebaseConfig = {
     apiKey: "AIzaSyBa2djPq0QhVTxpiWNxKz3JmmIG0YZDJZ0",
 
@@ -28,3 +21,8 @@ const firebaseConfig = {
   
     measurementId: "G-C3RWTQ76JG"
 };
+initializeApp(firebaseConfig);
+const auth = getAuth();
+
+
+
