@@ -31,7 +31,7 @@
   <h2>Your Total Pet Multiplier: {{pet_value}}</h2>
 </template>
   
-  <script setup>
+  <script setup lang="ts">
   import { ref } from "vue";
   const props = defineProps({
     Destination: Object,
