@@ -5,7 +5,7 @@
 </template>
 
 <script setup lang="ts">
-import DestCard from "@/components/Login.vue";
+import DestCard from "@/components/HelloWorld.vue";
 </script>
 
 <style scoped>
