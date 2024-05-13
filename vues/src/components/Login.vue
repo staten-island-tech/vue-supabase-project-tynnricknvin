@@ -1,5 +1,13 @@
 <template>
-  <h3>Does it work</h3>
+      <input
+    class="mdl-textfield__input"
+    style="display: inline; width: auto"
+    type="text"
+    id="email"
+    name="email"
+    placeholder="Email"
+  />
+
 
 </template>
   
