@@ -1,21 +1,9 @@
-import './assets/main.css'
+import { initializeApp } from 'firebase/app';
+import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
 
-import { createApp } from 'vue'
-import { createPinia } from 'pinia'
 
-import App from './App.vue'
-import router from './router'
+const firebaseConfig = {
+};
 
-const app = createApp(App)
+const app = initializeApp(firebaseConfig);
 
-app.use(createPinia())
-app.use(router)
-
-app.mount('#app')
-const poop = 
-    "lalala"
-console.log(poop)
-import { createClient } from '@supabase/supabase-js'
-
-// Use a custom domain as the supabase URL
-const supabase = createClient('https://ricky-domain.com', 'public-anon-key')
